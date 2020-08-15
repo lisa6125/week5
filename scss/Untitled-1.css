@@ -1,0 +1,90 @@
+
+
+
+
+/*RWD*/
+
+@media(max-width:768px){
+
+  .pages{
+   justify-content: center;
+  }
+  .subscribe{ 
+   margin:30px 0px 0px 0px;
+   padding:30px 30px;
+  }
+  .subscribe-input{
+   margin:30px 0px 0px 0px;
+   max-width:90%;
+  }
+  input{
+   max-width:90%;
+  }
+  .footer{
+    float:left;
+    padding-left:30px;
+  }
+  .footer-left{
+    margin-left:0px;
+  }
+  .footer-left img{
+    margin-bottom:40px;
+  }
+  .contact{
+  margin-bottom:20px;
+  }
+  .footer-right{
+    padding-right:0px;
+  }
+  .footer-right p{
+    padding:20px 0px;
+  }
+  .navbar{
+    display:flex;
+    justify-content:space-around;
+  }
+   .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  .navbar-nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    transition: all 0.8s;
+    overflow: hidden;
+    background: white;
+    flex-direction: column;
+    z-index: 999; /*記得加，避免被banner覆蓋*/
+  }
+  .navbar-link {
+    padding-left: 0;
+  }
+  .nav-link {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-item:hover {
+    background-color: #EAF0ED;
+  }
+
+  
+}
+@media(max-width:375px){
+  .dessert-cards{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+  }
+}
